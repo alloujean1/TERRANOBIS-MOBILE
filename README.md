@@ -1,5 +1,25 @@
 # TerraNobis Mobile
 
+## Démarrage rapide
+
+1. **Installer les dépendances**
+
+```bash
+npm install
+```
+
+2. **Lancer le projet Expo**
+
+```bash
+npx expo start
+```
+
+3. **Scanner le QR code**
+
+- Avec l’application Expo Go sur votre téléphone, scannez le QR code affiché dans le terminal ou le navigateur.
+
+---
+
 ## Problème
 L’agriculture africaine fait face à de nombreux défis : manque d’accès à l’expertise agronomique, difficulté à diagnostiquer les sols, manque de recommandations personnalisées, et faible accès à l’innovation numérique pour les petits producteurs.
 
