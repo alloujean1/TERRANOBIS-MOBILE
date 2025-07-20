@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, ScrollView, Dimensions, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, ScrollView, Dimensions, TouchableOpacity, Image } from 'react-native';
 import { Text, Button } from 'react-native-paper';
 import { LinearGradient } from 'expo-linear-gradient';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -23,7 +23,7 @@ const WelcomeScreen = ({ navigation }: any) => {
           {/* Logo stylisé */}
           <View style={styles.logoContainer}>
             <View style={styles.logo}>
-            <Icon name="agriculture" size={60} color="#FFFFFF" />
+              <Image source={require('../../assets/icon.jpeg')} style={{ width: 80, height: 80, borderRadius: 40 }} />
             </View>
         </View>
 

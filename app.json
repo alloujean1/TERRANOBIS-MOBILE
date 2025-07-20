@@ -9,6 +9,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#22C55E"
     },
+    "icon": "./assets/icon.jpeg",
     "assetBundlePatterns": [
       "**/*"
     ],

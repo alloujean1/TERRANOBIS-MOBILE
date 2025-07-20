@@ -10,6 +10,7 @@ TerraNobis propose une application mobile intelligente qui :
 - Offre une interface conversationnelle audio et multimodale (texte, voix, image)
 - Intègre la caméra et le micro pour enrichir l’analyse (photo du sol, question vocale)
 - Propose un tableau de bord, un profil utilisateur, et un historique des analyses
+- **Affiche le logo officiel du projet sur toutes les pages principales (accueil, login, etc.) et comme icône de l’application**
 
 ## Enjeux
 - **Améliorer la productivité agricole** grâce à des conseils adaptés au contexte africain
@@ -27,6 +28,10 @@ L’application collecte, avec le consentement de l’utilisateur :
 Toutes les données sont utilisées uniquement pour fournir un service personnalisé, améliorer la qualité des recommandations, et peuvent être anonymisées pour la recherche agronomique. Aucune donnée n’est partagée à des tiers sans consentement explicite.
 
 ---
+
+**Logo officiel :**
+- Le logo du projet est utilisé partout dans l’application et comme icône principale.
+- Fichier : `assets/icon.jpeg`
 
 **Technos principales :**
 - React Native (Expo)

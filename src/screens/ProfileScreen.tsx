@@ -50,9 +50,9 @@ const ProfileScreen = () => {
               source={{ uri: 'https://via.placeholder.com/80' }}
               style={styles.avatar}
             />
-            <Text style={styles.userName}>Jean Dupont</Text>
-            <Text style={styles.userRole}>Agriculteur Expert</Text>
-            <Text style={styles.userLocation}>Thiès, Sénégal</Text>
+            <Text style={styles.userName}>KOFFI ANGE</Text>
+            <Text style={styles.userRole}>Agricultrice Experte</Text>
+            <Text style={styles.userLocation}>Bouaké, Côte d'Ivoire</Text>
           </View>
         </LinearGradient>
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, ScrollView, Alert } from 'react-native';
+import { View, StyleSheet, ScrollView, Alert, Image } from 'react-native';
 import { Text, TextInput, Button, Card } from 'react-native-paper';
 import { LinearGradient } from 'expo-linear-gradient';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -48,9 +48,12 @@ const LoginScreen = ({ navigation }: any) => {
           style={styles.header}
         >
           <View style={styles.headerContent}>
+       
+          {/* Logo stylisé */}
             <View style={styles.logo}>
-            <Icon name="agriculture" size={48} color="#FFFFFF" />
+              <Image source={require('../../assets/icon.jpeg')} style={{ width: 80, height: 80, borderRadius: 40 }} />
             </View>
+        
           </View>
         </LinearGradient>
 
