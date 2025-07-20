@@ -1,24 +1,6 @@
 # TerraNobis Mobile
 
-## Démarrage rapide
 
-1. **Installer les dépendances**
-
-```bash
-npm install
-```
-
-2. **Lancer le projet Expo**
-
-```bash
-npx expo start
-```
-
-3. **Scanner le QR code**
-
-- Avec l’application Expo Go sur votre téléphone, scannez le QR code affiché dans le terminal ou le navigateur.
-
----
 
 ## Problème
 L’agriculture africaine fait face à de nombreux défis : manque d’accès à l’expertise agronomique, difficulté à diagnostiquer les sols, manque de recommandations personnalisées, et faible accès à l’innovation numérique pour les petits producteurs.
@@ -49,9 +31,26 @@ Toutes les données sont utilisées uniquement pour fournir un service personnal
 
 ---
 
-**Logo officiel :**
-- Le logo du projet est utilisé partout dans l’application et comme icône principale.
-- Fichier : `assets/icon.jpeg`
+## Limites des IA existantes et approche TerraNobis
+
+### Pourquoi les IA agricoles sont-elles souvent imprécises pour l’Afrique ?
+
+La majorité des intelligences artificielles utilisées dans l’agriculture mondiale sont entraînées sur des données provenant d’Amérique, d’Europe ou d’Asie. Résultat : leurs recommandations sont souvent inadaptées aux réalités africaines (types de sols, variétés locales, pratiques agricoles, conditions climatiques spécifiques, etc.).
+
+### L’engagement TerraNobis : une IA vraiment africaine
+
+Pour combler ce manque, TerraNobis met en place une collecte continue et responsable de données issues du terrain africain :
+- **Images réelles de sols, de cultures et de leur évolution**
+- **Informations précises sur la composition des terres africaines**
+- **Données d’usage, retours et interactions des agriculteurs locaux**
+
+Ces données, collectées en temps réel via l’application et traitées en backend, servent à enrichir une base de connaissances unique et à entraîner des modèles d’IA spécifiquement adaptés à l’Afrique.
+
+### Objectif : des prédictions et conseils enfin pertinents
+
+Grâce à cette démarche, TerraNobis vise à offrir des prédictions, diagnostics et recommandations qui tiennent compte des réalités du terrain africain, pour une agriculture plus performante, durable et résiliente.
+
+---
 
 **Technos principales :**
 - React Native (Expo)
@@ -59,5 +58,25 @@ Toutes les données sont utilisées uniquement pour fournir un service personnal
 - API Google Gemini (multimodal)
 - Google Speech-to-Text (transcription audio)
 - React Navigation, React Native Paper
+
+## Démarrage rapide
+
+1. **Installer les dépendances**
+
+```bash
+npm install
+```
+
+2. **Lancer le projet Expo**
+
+```bash
+npx expo start
+```
+
+3. **Scanner le QR code**
+
+- Avec l’application Expo Go sur votre téléphone, scannez le QR code affiché dans le terminal ou le navigateur.
+
+---
 
 **Auteur :** TerraNobis Team 
